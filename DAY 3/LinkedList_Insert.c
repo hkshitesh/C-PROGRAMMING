@@ -18,7 +18,7 @@ void main()
     int choice=10;
     while(choice!=0)
     {    
-    printf("1. Insert at beginning.\n2. Insert at Last\n3. Display Linked List\n4. Insert Between\n5. Delete Beginning\n6. Delete Last\n 7. Delete Given Item\n 7. Search Given Item\n0. Exit\n");
+    printf("1. Insert at beginning.\n2. Insert at Last\n3. Display Linked List\n4. Insert Between\n5. Delete Beginning\n6. Delete Last\n 7. Delete Given Item\n 8. Search Given Item\n0. Exit\n");
     printf("Enter your choice: ");
     scanf("%d",&choice);
     switch(choice)
@@ -189,7 +189,7 @@ void SearchItem()
     }
     else
     {
-        printf("\nItem is present on : %d",(loc+1));
+        printf("\nItem is present on : %d\n",(loc+1));
     }
     
 }
